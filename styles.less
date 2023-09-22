@@ -138,10 +138,15 @@ body.dark {
 .basket-items {
     display: flex;
     flex-direction: column;
+    padding: 15px;
     .cart-item {
         display: flex;
         flex-direction: row;
         align-items: center;
+        overflow: hidden;
+        border-radius: 12px;
+        background-color: #0000000f;
+        margin-bottom: 20px;
         img {
             height: 100px;
             width: 100px;
@@ -174,7 +179,7 @@ body.dark {
                         font-size: 14px;
                         font-weight: 600;
                         height: 30px;
-                        width: 30px;
+                        width: 50px;
                         display: flex;
                         justify-content: center;
                         align-items: center;
@@ -202,5 +207,11 @@ body.dark {
                 }
             }
         }
+    }
+}
+.total {
+    margin-left: 10px;
+    span {
+        margin-left: 10px;
     }
 }
